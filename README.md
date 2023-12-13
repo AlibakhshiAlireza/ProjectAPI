@@ -20,12 +20,12 @@ This Flask application serves as a backend for a clinic reservation system. It a
    cd ProjectAPI
 
 ### Usage
-Viewing Available Slots
-Endpoint: GET /slots
-Function: Returns a JSON object with available slots for each clinic.
+- **Viewing Available Slots
+- **Endpoint: GET /slots
+- **Function: Returns a JSON object with available slots for each clinic.
 ---
-Reserving Slots
-Endpoint: POST /reserve
-Function: Updates the available slot count for a specified clinic.
-Data Format: JSON with id (clinic ID) and reserved (number of slots to reserve).
-Usage Example: Send a POST request to http://127.0.0.1:5000/reserve with a JSON body like {"id": "1", "reserved": 1}
+- **Reserving Slots
+- **Endpoint: POST /reserve
+- **Function: Updates the available slot count for a specified clinic.
+- **Data Format: JSON with id (clinic ID) and reserved (number of slots to reserve).
+- **Usage Example: Send a POST request to http://127.0.0.1:5000/reserve with a JSON body like {"id": "1", "reserved": 1}
